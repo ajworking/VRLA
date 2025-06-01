@@ -614,7 +614,7 @@
                 <p>Beyond these primary uses, VRLA batteries serve in industrial equipment, material handling vehicles, recreational vehicles, and marine applications. Their ability to operate in various orientations and harsh environments makes them suitable for demanding industrial conditions.</p>
             </div>
 
-            <!-- Technology Page -->
+<!-- Technology Page -->
             <div id="technology" class="page">
                 <h2>VRLA Battery Technology</h2>
                 
@@ -663,8 +663,125 @@
                     <p>VRLA battery manufacturing involves precise control of paste formulation, grid design, separator placement, and electrolyte concentration. Advanced quality control ensures consistent performance and reliability across production batches.</p>
                 </div>
 
-                <h3>Testing and Quality Assurance</h3>
-                <p>Modern VRLA batteries undergo rigorous testing including capacity verification, float current measurement, internal resistance testing, and accelerated life testing to ensure they meet specified performance standards.</p>
+                <h2>Testing Methods for VRLA Batteries</h2>
+                <p>Comprehensive testing ensures VRLA batteries meet performance standards and reliability requirements. Testing occurs at multiple stages from manufacturing to field deployment.</p>
+
+                <h3>Standard Test Methods</h3>
+                <div class="grid-container">
+                    <div class="card">
+                        <h3>Capacity Testing (IEC 60896-21)</h3>
+                        <p>Measures actual amp-hour capacity at standard discharge rates (C10, C5, C1). Battery is fully charged, then discharged at constant current to specified end voltage.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Float Current Test</h3>
+                        <p>Measures current draw when battery is maintained at float voltage. Low float current indicates minimal water loss and proper valve operation.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Internal Resistance Testing</h3>
+                        <p>AC impedance measurement using 1kHz signal provides early indication of battery deterioration. Increasing resistance signals aging or failure.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Conductance Testing</h3>
+                        <p>Non-invasive test measuring battery's ability to conduct current. Rapid assessment method for field testing without full discharge.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Load Testing</h3>
+                        <p>High-rate discharge test typically at 1C rate for 15 minutes. Verifies battery's ability to deliver rated current under load conditions.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Impedance Spectroscopy</h3>
+                        <p>Advanced frequency domain analysis providing detailed information about internal chemical and physical processes.</p>
+                    </div>
+                </div>
+
+                <h3>Specialized Testing Procedures</h3>
+                <div class="highlight-box">
+                    <h3>Accelerated Life Testing</h3>
+                    <p>High-temperature testing (typically 60°C) to predict long-term performance. Arrhenius equation models extrapolate results to normal operating conditions, enabling life prediction without waiting years for natural aging.</p>
+                </div>
+
+                <div class="grid-container">
+                    <div class="card">
+                        <h3>Cycle Life Testing</h3>
+                        <p>Repeated charge-discharge cycles at specified depth of discharge (typically 80%) until capacity drops to 80% of rated value.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Float Life Testing</h3>
+                        <p>Long-term testing at constant float voltage and temperature to evaluate standby service life, typically conducted for 6-12 months.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Temperature Performance</h3>
+                        <p>Capacity and voltage measurements across operating temperature range (-20°C to +60°C) to characterize temperature coefficients.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Vibration Testing</h3>
+                        <p>Mechanical stress testing per ASTM D4169 standards to verify structural integrity for transportation and mobile applications.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Valve Operation Testing</h3>
+                        <p>Pressure testing to verify valve opening pressure (typically 1-4 psi) and proper resealing to maintain internal atmosphere.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Gas Recombination Efficiency</h3>
+                        <p>Measures oxygen recombination rate and hydrogen evolution to verify proper internal gas cycle operation.</p>
+                    </div>
+                </div>
+
+                <h3>Quality Control Methods</h3>
+                <div class="advantages-grid">
+                    <div class="advantage-card">
+                        <h3>🔬 Chemical Analysis</h3>
+                        <p>Electrolyte specific gravity, paste composition analysis, and material purity verification ensure consistent electrochemical performance.</p>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <h3>📊 Statistical Process Control</h3>
+                        <p>Real-time monitoring of manufacturing parameters with statistical analysis to identify trends and prevent quality deviations.</p>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <h3>🏭 Environmental Testing</h3>
+                        <p>Humidity, salt spray, and thermal shock testing verify performance under harsh environmental conditions.</p>
+                    </div>
+                </div>
+
+                <h3>Field Testing and Monitoring</h3>
+                <p>Installed VRLA batteries require regular testing to ensure continued reliability. Modern battery monitoring systems provide continuous data collection and analysis.</p>
+
+                <div class="grid-container">
+                    <div class="card">
+                        <h3>String Monitoring</h3>
+                        <p>Individual battery voltage monitoring within series strings to identify weak or failing units before system failure.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Temperature Monitoring</h3>
+                        <p>Continuous temperature measurement as elevated temperature is primary cause of reduced battery life in VRLA systems.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Trending Analysis</h3>
+                        <p>Historical data analysis to identify gradual performance degradation and predict maintenance requirements.</p>
+                    </div>
+                </div>
+
+                <div class="limitations-box">
+                    <h3>Testing Considerations</h3>
+                    <p>VRLA battery testing requires careful consideration of temperature, charge state, and aging effects. Unlike flooded batteries, VRLA units cannot be equalized, making accurate testing more critical for reliable assessment.</p>
+                </div>
+
+                <h3>International Standards</h3>
+                <p>VRLA battery testing follows established international standards including IEC 60896 (Stationary applications), IEEE 1188 (Maintenance and testing), and UL 1989 (Safety standards). These standards ensure consistent testing methods and reliable performance comparison across manufacturers.</p>
             </div>
 
             <!-- Future Page -->
