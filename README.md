@@ -356,9 +356,9 @@
                         <h3>Safety Features</h3>
                         <p>Pressure relief valves prevent dangerous gas buildup while maintaining optimal performance.</p>
                     </div>
-                </div>
-            </div>
-             <h4>ELECTROLYTE</h3>
+                    </div>
+                    </div>
+                    <h4>ELECTROLYTE</h3>
                         <p>Can be installed in any orientation except completely inverted, offering design flexibility.</p>
                     </div>
                     <div class="card">
