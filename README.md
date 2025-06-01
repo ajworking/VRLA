@@ -174,6 +174,15 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
+        .limitations-box {
+            background: linear-gradient(135deg, rgba(245, 87, 108, 0.1), rgba(240, 147, 251, 0.1));
+            border-left: 4px solid #f5576c;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
         .grid-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -193,6 +202,41 @@
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .advantages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .advantage-card {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+            padding: 1.5rem;
+            border-radius: 15px;
+            border: 2px solid rgba(102, 126, 234, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .advantage-card:hover {
+            transform: translateY(-3px);
+            border-color: #667eea;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+        }
+
+        .limitation-card {
+            background: linear-gradient(135deg, rgba(245, 87, 108, 0.05), rgba(240, 147, 251, 0.05));
+            padding: 1.5rem;
+            border-radius: 15px;
+            border: 2px solid rgba(245, 87, 108, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .limitation-card:hover {
+            transform: translateY(-3px);
+            border-color: #f5576c;
+            box-shadow: 0 8px 25px rgba(245, 87, 108, 0.2);
         }
 
         .timeline {
@@ -335,7 +379,7 @@
         <div class="content">
             <!-- Home Page -->
             <div id="home" class="page active">
-                <h2>Welcome to VRLA Battery Technology</h2>
+                <h2>Basic Concepts of VRLA Batteries</h2>
                 <p>Valve Regulated Lead Acid (VRLA) batteries represent a significant advancement in lead-acid battery technology. These maintenance-free batteries have revolutionized energy storage across numerous applications, from telecommunications to renewable energy systems.</p>
                 
                 <div class="highlight-box">
@@ -355,6 +399,82 @@
                     <div class="card">
                         <h3>Safety Features</h3>
                         <p>Pressure relief valves prevent dangerous gas buildup while maintaining optimal performance.</p>
+                    </div>
+                </div>
+
+                <h2>Advantages of VRLA Batteries</h2>
+                <div class="advantages-grid">
+                    <div class="advantage-card">
+                        <h3>🔧 Maintenance-Free Operation</h3>
+                        <p>No regular electrolyte level checks or water additions required, reducing operational costs and maintenance requirements.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>🔒 Sealed Design</h3>
+                        <p>Completely sealed construction prevents electrolyte spillage and acid corrosion, making them safe for indoor use.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>📐 Installation Flexibility</h3>
+                        <p>Can be mounted in various orientations (except inverted), providing design flexibility for space-constrained applications.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>🌡️ Temperature Tolerance</h3>
+                        <p>Better temperature performance compared to flooded batteries, with stable operation across wide temperature ranges.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>🔋 Low Self-Discharge</h3>
+                        <p>Excellent standby characteristics with very low self-discharge rates, making them ideal for backup power applications.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>⚡ Fast Charging</h3>
+                        <p>AGM variants especially can accept high charge currents, enabling rapid recharging when needed.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>🔇 Silent Operation</h3>
+                        <p>No gas bubbling or electrolyte movement, ensuring quiet operation suitable for office and residential environments.</p>
+                    </div>
+                    <div class="advantage-card">
+                        <h3>♻️ Environmentally Friendly</h3>
+                        <p>No harmful gas emissions during normal operation and high recyclability of materials.</p>
+                    </div>
+                </div>
+
+                <h2>Limitations of VRLA Batteries</h2>
+                <div class="limitations-box">
+                    <p>While VRLA batteries offer many advantages, it's important to understand their limitations for proper application selection:</p>
+                </div>
+
+                <div class="advantages-grid">
+                    <div class="limitation-card">
+                        <h3>💰 Higher Initial Cost</h3>
+                        <p>VRLA batteries typically cost 15-30% more than equivalent flooded lead-acid batteries due to advanced construction.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>🌡️ Temperature Sensitivity</h3>
+                        <p>Performance and lifespan significantly affected by high temperatures, with life halving for every 10°C increase above 25°C.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>🔄 Limited Deep Cycling</h3>
+                        <p>Generally not suitable for frequent deep discharge applications, with cycle life decreasing rapidly below 50% discharge.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>⚖️ Weight and Size</h3>
+                        <p>Higher energy density batteries like lithium-ion are lighter and more compact for the same energy storage capacity.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>🔧 Limited Repair Options</h3>
+                        <p>Sealed construction means internal components cannot be serviced or repaired, requiring complete replacement when failed.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>⚡ Voltage Depression</h3>
+                        <p>Can experience voltage depression if not properly maintained at correct float voltage, affecting capacity.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>📈 Aging Characteristics</h3>
+                        <p>Performance degrades gradually over time even with proper maintenance, with typical life of 3-12 years depending on application.</p>
+                    </div>
+                    <div class="limitation-card">
+                        <h3>🔋 Lower Energy Density</h3>
+                        <p>Compared to newer technologies like lithium-ion, VRLA batteries have lower energy density per unit weight and volume.</p>
                     </div>
                 </div>
             </div>
@@ -593,73 +713,4 @@
 
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <span class="stat-number">$15B+</span>
-                        <span>Global Market Size by 2030</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">5-7%</span>
-                        <span>Annual Growth Rate</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">20+</span>
-                        <span>Years Expected Service Life</span>
-                    </div>
-                    <div class="stat-card">
-                        <span class="stat-number">99%</span>
-                        <span>Recyclability Rate</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function showPage(pageId) {
-            // Hide all pages
-            const pages = document.querySelectorAll('.page');
-            pages.forEach(page => {
-                page.classList.remove('active');
-            });
-
-            // Remove active class from all buttons
-            const buttons = document.querySelectorAll('.nav-btn');
-            buttons.forEach(btn => {
-                btn.classList.remove('active');
-            });
-
-            // Show selected page
-            document.getElementById(pageId).classList.add('active');
-
-            // Add active class to clicked button
-            event.target.classList.add('active');
-        }
-
-        // Add smooth scrolling for better UX
-        document.addEventListener('DOMContentLoaded', function() {
-            // Add fade-in animation to cards when they come into view
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver(function(entries) {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.style.opacity = '1';
-                        entry.target.style.transform = 'translateY(0)';
-                    }
-                });
-            }, observerOptions);
-
-            // Observe all cards
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                card.style.opacity = '0';
-                card.style.transform = 'translateY(20px)';
-                card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-                observer.observe(card);
-            });
-        });
-    </script>
-</body>
-</html>
+                        <span class="stat-number">$15B
