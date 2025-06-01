@@ -335,8 +335,8 @@
         <div class="content">
             <!-- Home Page -->
             <div id="home" class="page active">
-                <h2>Welcome to VRLA Battery Technology</h2>
-                <p>Valve Regulated Lead Acid (VRLA) batteries represent a significant advancement in lead-acid battery technology. These maintenance-free batteries have revolutionized energy storage across numerous applications, from telecommunications to renewable energy systems.</p>
+                <h2>Basic Concept of VRLA Battery</h2>
+                <p>Valve Regulated Lead Acid (VRLA) batteries represent a significant advancement in lead-acid battery technology. VRLA batteries operate on the gas-recombining principle. These gases are vented from the battery and the water that is consumed in producing them is replenished periodically from an outside source during normal maintenance in the VRLA battery. These maintenance-free batteries have revolutionized energy storage across numerous applications, from telecommunications to renewable energy systems.</p>
                 
                 <div class="highlight-box">
                     <h3>What makes VRLA special?</h3>
@@ -354,6 +354,15 @@
                     </div>
                     <div class="card">
                         <h3>Safety Features</h3>
+                        <p>Pressure relief valves prevent dangerous gas buildup while maintaining optimal performance.</p>
+                    </div>
+                </div>
+            </div>
+             <h4>ELECTROLYTE</h3>
+                        <p>Can be installed in any orientation except completely inverted, offering design flexibility.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Safety Features</h3>
                         <p>Pressure relief valves prevent dangerous gas buildup while maintaining optimal performance.</p>
                     </div>
                 </div>
